@@ -9,3 +9,12 @@
 
 ![WEB-INF](https://github.com/GBXU/Pigeon/raw/master/doc/images/PigeonServlet_1.png)
 
+上传到服务器:
+windows上cmd
+进入等待上传的文件所在目录
+
+	cd  所在目录
+
+pscp上传
+
+	pscp -i A:\Users\用户名\.ssh\Putty\PuttyGenSSH_private.ppk 文件.zip root@服务器IP地址:/home
