@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi" severity="ignore">
+        <ignore path="src/pigeon/app/adapter/RssListviewAdapter.java" />
+        <ignore path="src/pigeon/app/ui/MainActivity.java" />
+    </issue>
+</lint>

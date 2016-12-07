@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"  
+    android:orientation="horizontal" >
+    <FrameLayout
+        android:id="@+id/rss_logo"
+        android:layout_width="60dp"
+        android:layout_height="60dp" >
+    	<ImageView  
+	        android:layout_marginTop="1dp"  
+	        android:layout_marginLeft="1dp"  
+	        android:layout_marginRight="1dp"  
+	        android:id="@+id/rss_icon"  
+	        android:src="@drawable/website_logo"
+	        android:layout_width="wrap_content"  
+	        android:layout_height="wrap_content"/>  
+    </FrameLayout> 
+
+    <RelativeLayout
+        android:id="@+id/rss_website"
+		android:layout_toRightOf="@+id/rss_logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+		<TextView
+	        android:id="@+id/rss_websiteName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:ellipsize="end"
+	        android:maxLines="1"
+	        android:layout_marginTop="8dp"
+	        android:text="教务处网站"
+	        android:textColor="#313233"
+	        android:textSize="16dp" />
+		<TextView
+	        android:id="@+id/rss_latest"
+	        android:layout_below="@+id/rss_websiteName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:ellipsize="end"
+	        android:maxLines="1"
+	        android:layout_marginTop="4dp"
+	        android:layout_marginBottom="8dp"
+	        android:text="有新的通知"
+	        android:textColor="#545454"
+	        android:textSize="14dp" />
+	</RelativeLayout>
+
+</RelativeLayout>

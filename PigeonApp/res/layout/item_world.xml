@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"  
+    android:orientation="vertical" >
+
+	<ImageView
+		android:id="@+id/world_photo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/qq" />
+	<RelativeLayout
+		android:layout_toRightOf="@+id/world_photo"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:orientation="vertical" >
+		<TextView
+			android:id="@+id/world_name"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#313233"
+			android:textSize="16dp" 
+			android:text="黄文豪" />
+
+		<TextView
+			android:id="@+id/world_messgae"
+	        android:layout_below="@+id/world_name"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#545454"
+			android:textSize="14dp"
+			android:text="新的一周，将会有更多的惊喜。" />
+		<ImageView
+			android:id="@+id/world_pic"
+	        android:layout_below="@+id/world_messgae"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+		<TextView
+			android:id="@+id/world_time"
+	        android:layout_below="@+id/world_pic"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#545454"
+			android:textSize="10dp"
+			android:text="2016-11-21 18:31" />
+     </RelativeLayout>
+</RelativeLayout>

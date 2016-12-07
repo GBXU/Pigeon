@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:padding="10dp"
+    android:background="@drawable/news_item_selector"
+    android:orientation="horizontal" >
+
+
+    <TextView
+        android:id="@+id/news_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text=""
+        android:textColor="#313233"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/news_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/news_title"
+        android:maxLines="2"
+        android:text=""
+        android:textColor="#545454"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/news_details"
+        android:layout_marginTop="8dp" >
+
+        <View
+            android:id="@+id/news_divide"
+            android:layout_width="1dp"
+            android:layout_height="10dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="#7A7C80" />
+
+        <TextView
+            android:id="@+id/news_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/news_divide"
+            android:text="2010-10-12"
+            android:textColor="#7A7C80"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="3dp"
+            android:layout_toLeftOf="@+id/news_agree_num"
+            android:background="#00000000"
+            android:src="@drawable/icon_agree" />
+
+        <TextView
+            android:id="@+id/news_agree_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text=""
+            android:textColor="#7A7C80"
+            android:textSize="12sp" />
+    </RelativeLayout>
+</RelativeLayout>

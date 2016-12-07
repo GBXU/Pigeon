@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" 
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">  
+  <servlet>  
+    <!-- 类名 -->  
+    <servlet-name>GetRss</servlet-name>  
+    <!-- 所在的包 --> 
+    <servlet-class>pigeon.service.servlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>
+    <!-- 类名 -->    
+    <servlet-name>GetRss</servlet-name>  
+    <!-- 访问的网址 -->  
+    <url-pattern>/GetRss.jsp</url-pattern>  
+  </servlet-mapping>  
+  
+    <servlet>  
+    <!-- 类名 -->  
+    <servlet-name>SetRss</servlet-name>  
+    <!-- 所在的包 --> 
+    <servlet-class>pigeon.service.servlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>
+    <!-- 类名 -->    
+    <servlet-name>SetRss</servlet-name>  
+    <!-- 访问的网址 -->  
+    <url-pattern>/SetRss.jsp</url-pattern>  
+  </servlet-mapping>  
+  
+    <servlet>  
+    <!-- 类名 -->  
+    <servlet-name>GetNews</servlet-name>  
+    <!-- 所在的包 --> 
+    <servlet-class>pigeon.service.servlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>
+    <!-- 类名 -->    
+    <servlet-name>GetNews</servlet-name>  
+    <!-- 访问的网址 -->  
+    <url-pattern>/GetNews.jsp</url-pattern>  
+  </servlet-mapping>  
+  
+    <servlet>  
+    <!-- 类名 -->  
+    <servlet-name>GetStar</servlet-name>  
+    <!-- 所在的包 --> 
+    <servlet-class>pigeon.service.servlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>
+    <!-- 类名 -->    
+    <servlet-name>GetStar</servlet-name>  
+    <!-- 访问的网址 -->  
+    <url-pattern>/GetStar.jsp</url-pattern>  
+  </servlet-mapping>  
+  
+    <servlet>  
+    <!-- 类名 -->  
+    <servlet-name>SetStar</servlet-name>  
+    <!-- 所在的包 --> 
+    <servlet-class>pigeon.service.servlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>
+    <!-- 类名 -->    
+    <servlet-name>SetStar</servlet-name>  
+    <!-- 访问的网址 -->  
+    <url-pattern>/SetStar.jsp</url-pattern>  
+  </servlet-mapping> 
+  
+    <servlet>  
+    <!-- 类名 -->  
+    <servlet-name>GetPublish</servlet-name>  
+    <!-- 所在的包 --> 
+    <servlet-class>pigeon.service.servlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>
+    <!-- 类名 -->    
+    <servlet-name>GetPublish</servlet-name>  
+    <!-- 访问的网址 -->  
+    <url-pattern>/GetPublish.jsp</url-pattern>  
+  </servlet-mapping>  
+  
+    <servlet>  
+    <!-- 类名 -->  
+    <servlet-name>SetPublish</servlet-name>  
+    <!-- 所在的包 --> 
+    <servlet-class>pigeon.service.servlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>
+    <!-- 类名 -->    
+    <servlet-name>SetPublish</servlet-name>  
+    <!-- 访问的网址 -->  
+    <url-pattern>/SetPublish.jsp</url-pattern>  
+  </servlet-mapping> 
+  
+    <servlet>  
+    <!-- 类名 -->  
+    <servlet-name>Refresh</servlet-name>  
+    <!-- 所在的包 --> 
+    <servlet-class>pigeon.service.servlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>
+    <!-- 类名 -->    
+    <servlet-name>Refresh</servlet-name>  
+    <!-- 访问的网址 -->  
+    <url-pattern>/Refresh.jsp</url-pattern>  
+  </servlet-mapping> 
+  
+    <servlet>  
+    <!-- 类名 -->  
+    <servlet-name>DeleteRss</servlet-name>  
+    <!-- 所在的包 --> 
+    <servlet-class>pigeon.service.servlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>
+    <!-- 类名 -->    
+    <servlet-name>DeleteRss</servlet-name>  
+    <!-- 访问的网址 -->  
+    <url-pattern>/DeleteRss.jsp</url-pattern>  
+  </servlet-mapping> 
+  
+    <servlet>  
+    <!-- 类名 -->  
+    <servlet-name>DeleteStar</servlet-name>  
+    <!-- 所在的包 --> 
+    <servlet-class>pigeon.service.servlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>
+    <!-- 类名 -->    
+    <servlet-name>DeleteStar</servlet-name>  
+    <!-- 访问的网址 -->  
+    <url-pattern>/DeleteStar.jsp</url-pattern>  
+  </servlet-mapping> 
+
+    <servlet>  
+    <!-- 类名 -->  
+    <servlet-name>GetDefault</servlet-name>  
+    <!-- 所在的包 --> 
+    <servlet-class>pigeon.service.servlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>
+    <!-- 类名 -->    
+    <servlet-name>GetDefault</servlet-name>  
+    <!-- 访问的网址 -->  
+    <url-pattern>/GetDefault.jsp</url-pattern>  
+  </servlet-mapping>   
+
+    <servlet>  
+    <!-- 类名 -->  
+    <servlet-name>Login</servlet-name>  
+    <!-- 所在的包 --> 
+    <servlet-class>pigeon.service.servlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>
+    <!-- 类名 -->    
+    <servlet-name>Login</servlet-name>  
+    <!-- 访问的网址 -->  
+    <url-pattern>/Login.jsp</url-pattern>  
+  </servlet-mapping>   
+</web-app>  

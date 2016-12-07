@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1E0DE"  
+    android:orientation="vertical" >	
+    <ListView 
+        android:id="@+id/fragment_rss_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="1dp"
+        android:divider="#E1E0DE" >
+        </ListView>
+</LinearLayout>
+ -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1E0DE"  
+    android:orientation="vertical">  
+  
+    <android.support.v4.widget.SwipeRefreshLayout  
+        android:id="@+id/fragment_rss_swipe"  
+        android:layout_width="match_parent"  
+        android:layout_height="match_parent" >  
+  
+    <ListView 
+        android:id="@+id/fragment_rss_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="1dp"
+        android:divider="#E1E0DE" >
+        </ListView>
+    </android.support.v4.widget.SwipeRefreshLayout>  
+  
+</RelativeLayout>  

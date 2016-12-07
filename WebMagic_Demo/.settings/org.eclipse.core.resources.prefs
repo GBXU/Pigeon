@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/webmagic/Page.java=UTF-8
+encoding//src/webmagic/Site.java=UTF-8
+encoding//src/webmagic/downloader/HttpClientDownloader.java=UTF-8
+encoding//src/webmagic/downloader/HttpClientGenerator.java=UTF-8
+encoding//src/webmagic/processor/example/BaiduBaikePageProcessor.java=UTF-8

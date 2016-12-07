@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/actionbar_icon_search"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:title="查找"/>
+     <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/menu_icon_add"
+        android:title="添加关注"/>
+    <item
+        android:id="@+id/action_publish"
+        android:icon="@drawable/menu_icon_publish"
+        android:title="发布消息"/>
+    
+    <item
+        android:id="@+id/action_exit"
+        android:icon="@drawable/menu_icon_exit"
+        android:title="退出应用"/>
+</menu>

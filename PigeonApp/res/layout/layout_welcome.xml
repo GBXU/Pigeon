@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+ 
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"> 
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"> 
+            <RelativeLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"> 
+                <ImageView android:id="@+id/ic_logo"
+                    android:layout_width="110dip"
+                    android:layout_height="130dip"
+                    android:src="@drawable/ic_logo"/> 
+            </RelativeLayout> 
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"> 
+                <TextView android:id="@+id/app_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dip"
+                    android:text="@string/app_name"
+                    android:textSize="24sp"/> 
+                <TextView android:id="@+id/version_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="bottom"
+                    android:text="V1.0"
+                    android:paddingBottom="6dip"
+                    android:textSize="14sp"/> 
+            </LinearLayout> 
+            <View android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:background="#115199"/> 
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="6dip"
+                android:text="重要消息，不再错过！"
+                android:textSize="13sp"/> 
+        </LinearLayout> 
+    </RelativeLayout> 
+	<!-- Author -->
+    <TextView android:id="@+id/copy_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dip"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="XuGB"
+        android:textSize="11sp"/> 
+</RelativeLayout>
