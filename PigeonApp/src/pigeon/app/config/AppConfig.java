@@ -32,7 +32,7 @@ public class AppConfig {
 	private String RootUrl;
 	public AppConfig() {
 		
-		RootUrl = "服务器地址";
+		RootUrl = "服务器";
 		
 		GetRss = RootUrl+"GetRss";
 		SetRss = RootUrl+"SetRss";

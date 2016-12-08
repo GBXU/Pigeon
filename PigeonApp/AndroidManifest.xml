@@ -20,9 +20,10 @@
         	android:logo="@drawable/ic_logo" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+			<meta-data android:name="android.app.searchable"
+            	android:resource="@xml/searchable" />
         </activity>    
 		<activity  android:name="pigeon.app.ui.MainActivity" />   
 		<activity  android:name="pigeon.app.ui.NewsListActivity"/>
@@ -37,6 +38,14 @@
 		<activity  android:name="pigeon.app.ui.FeedbackActivity" /> 
 		<activity  android:name="pigeon.app.ui.DefaultRssListActivity" /> 
 		<activity  android:name="pigeon.app.ui.LoginActivity" /> 
+		
+		<activity  android:name="pigeon.app.ui.SearchActivity">
+			<intent-filter>
+        		<action android:name="android.intent.action.SEARCH" />
+        		<category android:name="android.intent.category.DEFAULT" />
+    		</intent-filter>
+		</activity> 
+
     </application>
 
 </manifest>
